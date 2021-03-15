@@ -1,0 +1,24 @@
+site_name: Universe
+nav:
+  - Home: 'index.md'
+  - Python:
+    - Debugging: 'python/python_debugging.md'
+  - Deeplearning:
+    - 'Torch Script': 'deeplearning/torch_script'
+theme:
+  name: material
+  font:
+    text: Georgia
+
+plugins:
+  - search
+
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - admonition
